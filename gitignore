@@ -1,0 +1,48 @@
+# ==== Build output (per service) ====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==== IDE ====
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+# ==== OS ====
+.DS_Store
+Thumbs.db
+
+# ==== Logs ====
+*.log
+logs/
+
+# ==== Environment / secrets ====
+.env
+.env.*
+!.env.example
+application-local.yaml
+application-local.yml
+**/src/main/resources/application-secrets.yaml
+
+# ==== Docker ====
+docker-compose.override.yml
+
+# ==== NetBeans ====
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
